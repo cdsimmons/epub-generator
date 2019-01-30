@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="2.0" unique-identifier="BookId" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <meta name="Sigil version" content="0.9.7" />
+    <dc:title>A Will Eternal</dc:title>
+    <dc:creator opf:role="aut" opf:file-as="Epub Generator">epub generator</dc:creator>
+    <dc:language>en</dc:language>
+    <dc:date opf:event="modification">2017-01-01</dc:date>
+    <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:carlsimmons-awe</dc:identifier> <!-- <dc:identifier opf:scheme="UUID" id="BookId">urn:uuid:1a82cc17-601c-4aa5-9d0e-cf3c3fa2d50c</dc:identifier> -->
+    <meta name="cover" content="cover.jpg" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="styles.css" href="styles/styles.css" media-type="text/css"/>
+    <item id="_title.xhtml" href="text/_title.xhtml" media-type="application/xhtml+xml"/>
+    <item id="ovo-regular.ttf" href="fonts/ovo-regular.ttf" media-type="application/x-font-ttf"/>
+    <item id="andalus.ttf" href="fonts/andalus.ttf" media-type="application/x-font-ttf"/>
+    <item id="_credits.xhtml" href="text/_credits.xhtml" media-type="application/xhtml+xml"/>
+
+    <item id="awe-1.xhtml" href="text/awe-1.xhtml" media-type="application/xhtml+xml"/><item id="awe-2.xhtml" href="text/awe-2.xhtml" media-type="application/xhtml+xml"/><item id="awe-3.xhtml" href="text/awe-3.xhtml" media-type="application/xhtml+xml"/><item id="awe-4.xhtml" href="text/awe-4.xhtml" media-type="application/xhtml+xml"/><item id="awe-5.xhtml" href="text/awe-5.xhtml" media-type="application/xhtml+xml"/><item id="awe-6.xhtml" href="text/awe-6.xhtml" media-type="application/xhtml+xml"/><item id="awe-7.xhtml" href="text/awe-7.xhtml" media-type="application/xhtml+xml"/><item id="awe-8.xhtml" href="text/awe-8.xhtml" media-type="application/xhtml+xml"/>
+
+    <item id="cover.jpg" href="images/cover.jpg" media-type="image/jpeg"/>
+    <item id="_cover.xhtml" href="text/_cover.xhtml" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="_cover.xhtml"/>
+    <itemref idref="_title.xhtml"/>
+    
+    <itemref idref="awe-1.xhtml"/><itemref idref="awe-2.xhtml"/><itemref idref="awe-3.xhtml"/><itemref idref="awe-4.xhtml"/><itemref idref="awe-5.xhtml"/><itemref idref="awe-6.xhtml"/><itemref idref="awe-7.xhtml"/><itemref idref="awe-8.xhtml"/>
+    
+    <itemref idref="_credits.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="title-page" title="Title Page" href="text/_title.xhtml"/>
+    <reference type="cover" title="Cover" href="text/_cover.xhtml"/>
+  </guide>
+</package>
